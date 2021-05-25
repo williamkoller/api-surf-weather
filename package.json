@@ -9,7 +9,8 @@
     "start:dev": "ts-node-dev src/index.ts",
     "lint": "eslint ./src ./test --ext .ts",
     "lint:fix": "eslint ./src ./test --ext .ts --fix",
-    "test:functional": "jest --projects ./test --runInBand"
+    "test:functional": "jest --projects ./test --runInBand",
+    "test:functional:watch": "jest --projects ./test --runInBand --watch"
   },
   "repository": "git@github.com:williamkoller/api-surf-weather.git",
   "author": "william koller <wkoller25@gmail.com>",
